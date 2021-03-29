@@ -1,7 +1,39 @@
 html {
   box-sizing: border-box;
+  font-family:
+  line-height: normal;
 }
+
+font-family: 'Merriweather', serif;
+font-family: 'Merriweather', serif;
 
 *, *::before, *::after {
   box-sizing: inherit;
+}
+
+img {
+  width: 100%;
+}
+body {
+  margin: 0%
+}
+
+figcaption {
+  color: white;
+  font-style:italic;
+  font-family:
+  font-size: 2rem;
+}
+
+dl {
+  display: grid;
+  grid-template-columns: repeat (3, 1fr);
+  grid-template-rows: repeat (6, 1fr);
+  list-style: none;
+}
+
+div:nth-child {
+  grid-column: 2/6;
+  grid-row: 4;
+  background-color: white;
 }
