@@ -35,6 +35,15 @@ main {
   grid-area: banner;
   align-self: end;
   color: #fff;
+  padding: 1.5rem 1rem;
+}
+
+.banner-text h2 {
+  margin-bottom: 0;
+}
+
+.banner-text p {
+  margin-bottom: 0;
 }
 
 h1 {
@@ -56,5 +65,29 @@ header {
 }
 
 p {
-  padding: 1.5rem 1rem;
+  margin: 0 0 1.5rem;
+}
+
+figure {
+  margin: 0;
+}
+
+figure h2 {
+  margin-bottom: 0;
+}
+
+figcaption {
+  padding: 1rem;
+}
+
+dl {
+  margin: 0;
+}
+
+dt {
+  font-style: italic;
+}
+
+dd {
+  margin-left: 1rem;
 }
