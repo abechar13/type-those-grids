@@ -4,9 +4,6 @@ html {
   line-height: 1.5;
 }
 
-font-family: 'Merriweather', serif;
-font-family: 'Merriweather', serif;
-
 *, *::before, *::after {
   box-sizing: inherit;
 }
@@ -91,3 +88,8 @@ dt {
 dd {
   margin-left: 1rem;
 }
+
+/**
+font-family: 'Merriweather', serif;
+font-family: 'Merriweather', serif;
+/**
